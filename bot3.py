@@ -7,6 +7,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 import base64
 import tempfile
+import os
 # 讀取 JSON 文件
 def get_cred():
     with open('ms_price.txt', 'r', encoding="UTF-8") as enc:
