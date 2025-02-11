@@ -113,4 +113,4 @@ def refreshjson():
     pass
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-bot.run(TOKEN)
+bot.run("MTMwMzc2OTMyMTkxNDUwMzE5OA.GwBQjb.frA6B18-6XAqNHmFHvqziQ5o5eWguISmRPxhB8")
