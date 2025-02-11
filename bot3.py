@@ -110,4 +110,6 @@ async def u(ctx,input_id:int,input_price:int):
     await ctx.send("update price")
 def refreshjson():
     pass
-bot.run("MTMwMzc2OTMyMTkxNDUwMzE5OA.GwBQjb.frA6B18-6XAqNHmFHvqziQ5o5eWguISmRPxhB8")
+
+TOKEN = os.getenv("DISCORD_TOKEN")
+bot.run(TOKEN)
